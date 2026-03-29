@@ -23,7 +23,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8">
-        <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">EventPulse Login</h2>
+        <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Login</h2>
         {error && <p className="bg-red-100 text-red-600 p-2 rounded mb-4 text-sm">{error}</p>}
         
         <form onSubmit={handleLogin} className="space-y-4">
