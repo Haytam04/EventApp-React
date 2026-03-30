@@ -5,7 +5,7 @@ import Register from './components/Auth/Register';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';
 
-// We will create these components in the next step
+// We will create these components in the next step - KHAOULA
 const Home = () => <div className="p-8 text-center text-2xl font-bold">Event List (Coming Soon)</div>;
 const CreateEvent = () => <div className="p-8 text-center text-2xl font-bold">Create New Event Form (Coming Soon)</div>;
 
